@@ -21,6 +21,10 @@
 		<li class="todo-item {{isDoneClass}}">
 			{{> TodoItem}}
 		</li>
+			{{else}}
+			<div class="todo-item empty">
+			No todo yet.
+            </div>
 		{{/each}}
 	</ul>
 
